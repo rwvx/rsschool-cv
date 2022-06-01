@@ -1,6 +1,7 @@
 # CV
 ## **Роман Аносов**
 ### 23 года, Владивосток
+![кот](https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Kot-026.jpg/1024px-Kot-026.jpg)
 
 <br/>
 
