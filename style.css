@@ -57,39 +57,21 @@ body {
   box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.5);
 }
 
-.links {
+#cont {
   margin-top: 40px;
   font-size: 30px;
   font-weight: bold;
   text-align: center;
 }
 
-.link {
-  list-style: none;
-}
-
-.item1 {
-  display: flex;
-  
-}
-
-.tg {
-  width: 25px;
-  margin-right: 20px;
-  margin-left: 5px;
-}
-
-a {
-  vertical-align: baseline;
-  text-decoration: none;
-}
-
-.ex {
-  font-size: 30px;
-}
-
 footer {
   height: 50px;
   background-color: #303036;
   color: white;
+}
+
+.links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
 }
