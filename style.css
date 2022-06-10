@@ -7,7 +7,7 @@
 
 body {
   font-family: Roboto;
-  background-color: #f1f1f1;
+  background-color: #ecf8f8;
 }
 
 .content {
@@ -21,11 +21,11 @@ body {
   box-sizing: border-box;
   height: 100vh;
   width: 600px;
-  background-color: #f1f1f1;
+  background-color: white;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   border-right: 1px solid black;
-  color: #6a706e;
+  color: #303036;
   font-size: 30px;
   font-weight: bold;
 }
@@ -34,14 +34,14 @@ body {
   box-sizing: border-box;
   height: 100vh;
   width: 400px;
-  background-color: #6a706e;
-  border-right: #241e4e solid 10px;
+  background-color: #303036;
+  border-right: black solid 5px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   border-left: 1px solid black;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  color: #f1f1f1;
+  color: white;
 }
 
 .avatar {
@@ -54,7 +54,7 @@ body {
 }
 
 .shadow {
-  box-shadow: 5px 13px 12px 0px rgb(0 0 0);
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.5);
 }
 
 .links {
@@ -86,4 +86,10 @@ a {
 
 .ex {
   font-size: 30px;
+}
+
+footer {
+  height: 50px;
+  background-color: #303036;
+  color: white;
 }
