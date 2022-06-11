@@ -22,9 +22,9 @@ body {
   height: 100vh;
   width: 600px;
   background-color: white;
-  border-top: 1px solid black;
+  /* border-top: 1px solid black;
   border-bottom: 1px solid black;
-  border-right: 1px solid black;
+  border-right: 1px solid black; */
   color: #303036;
   font-size: 30px;
   font-weight: bold;
@@ -35,12 +35,12 @@ body {
   height: 100vh;
   width: 400px;
   background-color: #303036;
-  border-right: black solid 5px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-left: 1px solid black;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  /* border-right: black solid 5px; */
+  /* border-top-left-radius: 5px; */
+  /* border-bottom-left-radius: 5px; */
+  /* border-left: 1px solid black; */
+  /* border-top: 1px solid black; */
+  /* border-bottom: 1px solid black; */
   color: white;
 }
 
@@ -74,4 +74,44 @@ footer {
   margin-top: 20px;
   display: flex;
   justify-content: space-evenly;
+}
+
+.location {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo {
+  width: 50px;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: #0074D9;
+}
+
+.vdk {
+  position: relative;
+}
+
+.vdk::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: #0074D9;
+  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .vdk:hover::before{
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
 }
