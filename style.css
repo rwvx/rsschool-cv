@@ -77,20 +77,39 @@ footer {
 }
 
 .location {
-  padding-top: 50px;
+  margin-top: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 
-.logo {
+/* .logo {
   width: 50px;
   border-radius: 50%;
+} */
+
+.maps {
+  width: 50px;
+  height: 50px;
+  background-image: url(assets/google-maps.jpg);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.maps:hover {
+  background-image: url(assets/google-maps.gif);
+}
+
+.location:hover > .maps {
+  background-image: url(assets/google-maps.gif);
 }
 
 a {
   text-decoration: none;
   color: #0074D9;
+  font-size: 20px;
 }
 
 .vdk {
@@ -114,4 +133,40 @@ a {
     right: auto;
     width: 100%;
   }
+}
+
+.phone {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+  /* border: solid white 2px; */
+}
+
+.phone-icon {
+  height: 50px;
+  width: 50px;
+  background-image: url(assets/phone.jpg);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.phone-icon:hover {
+  background-image: url(assets/phone.gif);
+}
+
+.phone:hover > .phone-icon {
+  background-image: url(assets/phone.gif);
+}
+
+.space {
+  /* border: solid white 2px; */
+  height: 50px;
+  width: 88px;
+}
+
+.number {
+  font-size: 20px;
 }
