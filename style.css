@@ -170,3 +170,17 @@ a {
 .number {
   font-size: 20px;
 }
+
+.bottom {
+  box-sizing: border-box;
+  width: inherit;
+  height: auto;
+  border: solid 2px white;
+  position: absolute;
+  bottom: 0px;
+  padding-left: 10px;
+}
+
+.links-bottom {
+  list-style-type: none;
+}
