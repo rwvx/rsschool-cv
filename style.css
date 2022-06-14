@@ -67,6 +67,8 @@ footer {
 .links {
   margin-top: 20px;
   display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
   justify-content: space-evenly;
 }
 
@@ -74,8 +76,8 @@ footer {
   /* margin-top: 40px; */
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -89,17 +91,17 @@ footer {
 .maps {
   width: 40px;
   height: 40px;
-  background-image: url(assets/google-maps.jpg);
+  background-image: url(assets/img/google-maps.jpg);
   background-size: cover;
   border-radius: 50%;
 }
 
 .maps:hover {
-  background-image: url(assets/google-maps.gif);
+  background-image: url(assets/img/google-maps.gif);
 }
 
 .location:hover > .maps {
-  background-image: url(assets/google-maps.gif);
+  background-image: url(assets/img/google-maps.gif);
 }
 
 a {
@@ -134,8 +136,8 @@ a {
 .phone {
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -146,17 +148,17 @@ a {
 .phone-icon {
   height: 40px;
   width: 40px;
-  background-image: url(assets/phone.jpg);
+  background-image: url(assets/img/phone.jpg);
   background-size: cover;
   border-radius: 50%;
 }
 
 .phone-icon:hover {
-  background-image: url(assets/phone.gif);
+  background-image: url(assets/img/phone.gif);
 }
 
 .phone:hover > .phone-icon {
-  background-image: url(assets/phone.gif);
+  background-image: url(assets/img/phone.gif);
 }
 
 /* .space { */
@@ -259,8 +261,68 @@ a {
 .name {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* font-weight: bold; */
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
+.name h1 {
+  position: relative;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.name h1::after {
+  position: absolute;
+  content: 'Student of RSSchool';
+  font-size: 15px;
+  top: 40px;
+  color: dimgrey;
+}
+
+.name h2 {
+  font-style: italic;
+  padding-bottom: 10px;
+}
+
+.name p {
+  line-height: 30px;
+}
+
+.skills {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.skills h2 {
+  font-style: italic;
+  padding-bottom: 10px;
+}
+
+.skills ul {
+  line-height: 30px;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.hobby {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.hobby h2 {
+  font-style: italic;
+  padding-bottom: 10px;
+}
+
+.hobby ul {
+  line-height: 30px;
+  padding-left: 20px;
+  list-style-type: disc;
+}
