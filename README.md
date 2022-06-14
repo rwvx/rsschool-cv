@@ -1,1 +1,1 @@
-# rsschool-cv
+https://rwvx.github.io/rsschool-cv/
