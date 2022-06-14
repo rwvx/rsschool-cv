@@ -10,43 +10,51 @@
 <body>
     <div class="content">
         <section class="contacts shadow">
-            <img src="assets/avatar.jpg" alt="avatar" class="avatar">
+            <div id="avatar">
+                <img src="assets/avatar.jpg" alt="avatar" class="avatar">
+            </div>
             <p id="cont">Contacts</p>
             <div class="links">
                 <div class="telegram">
-                    <a href="https://t.me/rowvh" target="_blank"> <img src="assets/telegram.png" alt="tg-icon"></a>
+                    <a href="https://t.me/rowvh" target="_blank"> <img class="soc-icon" src="assets/telegram.png" alt="tg-icon"></a>
                 </div>
-                <div class="github">
-                    <a href="https://github.com/rwvx" target="_blank"><img src="assets/github.png" alt="gh-icon"></a>
-                </div>
+                <!-- <div class="github"> -->
+                    <!-- <a href="https://github.com/rwvx" target="_blank"><img class="soc-icon" src="assets/github.png" alt="gh-icon"></a> -->
+                <!-- </div> -->
                 <div class="email">
-                    <a href="mailto:roman.anosov.9@gmail.com" target="_blank"> <img src="assets/email.png" alt="email-icon"></a>
+                    <a href="mailto:roman.anosov.9@gmail.com" target="_blank"> <img class="soc-icon" src="assets/email.png" alt="email-icon"></a>
                 </div>
             </div>
-            <div class="location">
-                <div class="maps"></div>
-                <a class="vdk" href="https://goo.gl/maps/gSJgLcX25JcSZJZ36" target="_blank">Vladivostok, Russia (UTC +10)</a>
-            </div>
-            <div class="phone">
-                <div class="phone-icon"></div>
-                <div class="space"></div>
-                <p class="number">+ 7-999-059 ** **</p>
-            </div>
+            <div id="info" >
+                <div class="location">
+                    <div class="maps"></div>
+                    <a class="vdk" href="https://goo.gl/maps/gSJgLcX25JcSZJZ36" target="_blank">Vladivostok, Russia (UTC +10)</a>
+                </div>
+                <div class="phone">
+                    <div class="phone-icon"></div>
+                    <div class="space"></div>
+                    <p class="number">+ 7-999-059 ** **</p>
+                </div>
+            </div>   
             <footer class="bottom">
-                <ul class="links-bottom">
-                    <li></li>
-                </ul>
-                <p>Some text</p>
-                <p>Some text</p>
-                <p>Some text</p>
-                <p>Some text</p>
-                <p>Some text</p>
-                <p>Some text</p>
-                <p>Some text</p>
+                <div class="source">
+                    <p class="links-bottom">Icons from <a class="flaticon" href="https://www.flaticon.com/">flaticon.com</a></p>
+                    <p class="links-bottom">Link Hover Effects <a class="flaticon" href="https://freefrontend.com/" target="_blank">freefrontend.com</a></p>
+                    <p class="links-bottom">Gradient from <a class="flaticon" href="mycolor.space/gradient" target="_blank">mycolor.space/gradient</a></p>
+                </div>
+                <div class="rss-links">
+                    <a href="https://rs.school/js/" target="_blank"><img id="rss" src="assets/rs_school_js.svg" alt="rss"></a>
+                    <a href="https://github.com/rwvx" target="_blank"><img class="soc-icon" src="assets/github.png" alt="gh-icon"></a>
+                    <p>2022</p>
+                </div>
             </footer>
         </section>
         <section class="aboutme shadow">
-            Some text
+            <div class="name">
+                <h1>Roman Anosov</h1>
+                <h2>About me</h2>
+                <p>Student of RSSchool</p>
+            </div>
         </section>
     </div>
 </body>
